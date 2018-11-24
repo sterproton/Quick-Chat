@@ -11,7 +11,7 @@ export default class ChatPanel extends Component {
       <div id="chatPanel">
         <div id="chatPanel-search">
           <FontAwesomeIcon icon={faSearch} />
-          <input type="text" placeholder="search" />
+          <input type="text" placeholder="Search" />
         </div>
         <div className="chat-item-wrap">
           {this.props.chatList.map((chat, index) => (
