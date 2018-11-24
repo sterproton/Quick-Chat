@@ -1,0 +1,31 @@
+#userInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;;
+  .wrap{
+    text-align: center;
+    .avatar{
+      background-color: grey;
+      width: 3.75rem;
+      height: 3.75rem;
+      border-radius: 50%;
+    }
+    .user-name{
+      margin-top: 1.25rem;
+      color: #3E464F;
+    }
+  }
+}
+
+.nav{
+  li{
+    padding: 1rem 0;
+    padding-left: 2rem;
+    color: #98A3B5;
+    font-size: 1.5625rem;
+    &:hover{
+      color: #629EEE;
+    }
+  }
+}
